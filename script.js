@@ -9,11 +9,11 @@ function isSameType(value1, value2) {
   return typeof value1 === typeof value2;
 }
 }
-console.log(isSameType(1, 3));        
-console.log(isSameType("hey", "hi")); 
-console.log(isSameType(NaN, NaN));    
-console.log(isSameType("3", 3));      
-console.log(isSameType(true, false)); 
+// console.log(isSameType(1, 3));        
+// console.log(isSameType("hey", "hi")); 
+// console.log(isSameType(NaN, NaN));    
+// console.log(isSameType("3", 3));      
+// console.log(isSameType(true, false)); 
 
 // do not change the code below.
 let value1 = prompt("Enter Start of the Range.");
